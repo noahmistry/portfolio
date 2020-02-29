@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Portfolio - Noah Mistry</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- favicons -->
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon_16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon_32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/images/favicons/favicon_96x96.png">
+    <link rel="apple-touch-icon" sizes="192x192" href="assets/images/favicons/favicon_192x192.png">
+    <link rel="shortcut icon" href="assets/images/favicons/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+    <link rel="stylesheet" href="assets/css/site.css">
+    <script src="https://kit.fontawesome.com/32fb37abc5.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <section class="header__section">
+        <header>
+            <nav class="navbar navbar-expand-md navbar-light">
+               <div class="container-fluid">
+                   <a class="navbar-brand" href="./index.html">
+                        <img src="assets/images/logo/nm-logo-blue-variant-transparent.png" class="img-responsive" width="190px" height="90px" alt=""></a>
+                        <button class="navbar-toggler" type="button"  data-toggle="collapse"  data-target="#navbarContent"  aria-controls="navbarContent" aria-expanded="false" aria-label="Togglenavigation">
+                        <span class="navbar-toggler-icon"></span>
+                        </button>
+                        
+                        <div class="collapse navbar-collapse justify-content-end" id="navbarContent">
+                            <div class="navbar-nav">
+                                        <ul class="nav navbar-nav menu__nav justify-content-end">
+                                            <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+                                            <li class="nav-item"><a class="nav-link" href="#about" aria-labelledby="#about">About</a></li>
+                                            <li class="nav-item">
+                                            <a class="nav-link" aria-labelledby="#portfolio" href="#portfolio">Portfolio</a>
+                                            </li>
+                                            <li class="nav-item"><a class="nav-link" href="assets/resume/Noah_Mistry-Resume-Latest.pdf">Resumé</a></li>
+                                            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                                            </ul>
+                            </div>
+                        </div>
+                     </div>
+                </nav> <!-- end of nav-->
+        </header> <!-- end of header-->
+
+        <div class="section__gap--top"></div>
+
+        <!-- Pre-form Contact -->
+        <section>
+            <div class="container-fluid">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6 col-md-4">
+                        <ul class="contact__section--list">
+                            <li class="contact__section--list--item">
+                                <h6><i class="fas fa-home">
+                                </i>Surrey, BC, Canada</h6>
+                            </li>
+                            <li class="contact__section--list--item">
+                                <h6><a href="tel:+16048076966"><i class="fas fa-phone-volume">
+                                </i>(604) 807-6966</a></h6>
+                            </li>
+                            <li class="contact__section--list--item">
+                                <h6><i class="far fa-envelope"></i>noah.mistry@gmail.com</h6>
+                            </li>
+                        </ul>
+                    </div>
+                     <!-- Form  -->
+                    <div class="col-lg-6 col-md-10">
+                        <form class="form__section" id="contactFormValidator" action="assets/php-mailer/contact-form-handler.php" method="POST" novalidate>
+                                <div class="col-md-8">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" name="name" id="name" placeholder="Enter your name" required>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="email" class="form-control" name="email" id="email" placeholder="Enter your email" required>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" name="subject" id="subject" placeholder="Enter subject" required>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <textarea name="message" class="form-control" id="textarea" id="message" rows="1" required></textarea>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-10 text-center">
+                                    <button type="submit" class="btn btn-primary">Send</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+
+      
+<div class="section__gap--top"></div>     
+
+
+    <!-- Footer Section -->
+
+    <footer class="footer__section">
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <aside class="footer__widget">
+                    <div class="col-md-6 text-center">
+                        <div class="footer__widget--logo">
+                            <img src="assets/images/logo/nm-logo-blue-variant-tp.png" alt="" class="text-center" width="250">
+                        </div>
+                    </div>
+
+                    <div class="row justify-content-center">
+                        <div class="col-md-6 footer__widget--list--item">
+                            <a href="www.linkedin.com/in/
+                            noah-mistry-b51836120" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="skype:noemistry?chat"><i class="fab fa-skype"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="section__gap--top"></div>
+
+                    <p class="text-center"> Copyright <i class="fa fa-copyright" aria-hidden="true"></i> 2020 All rights reserved</p>
+                    <p class="text-center">This site was made with <i class="fas fa-heart"></i> by Noah Mistry</p>
+                </aside>
+            </div>
+            
+        </div>
+    </footer>
+    
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="https://kit.fontawesome.com/32fb37abc5.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+    <!-- <script src="assets/js/site.js"></script> -->
+
+</body>
+</html>

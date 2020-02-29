@@ -1,0 +1,53 @@
+/*--------------------------------------------------------------
+# Contact Page
+--------------------------------------------------------------*/
+
+.contact__section--list{
+    display: inline-block;
+    list-style-type: none;
+    padding-left: 0;
+    text-align: center;
+    .contact__section--list--item {
+        padding: 18px 0;
+        h6{
+            font-size: 16px !important;
+            font-weight: 700;
+            line-height: 24px;
+            a{
+                color: $text-color;
+                &:hover{
+                    color: $primary-color;
+                }
+            }
+        }
+        .fa-home::before,
+        .fa-phone-volume,
+        .fa-envelope {
+            color: #15AABF;
+            font-size: 20px;
+            line-height: 24px;
+            padding-right: 20px;
+        }
+    }
+}
+
+.form__section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    #textarea {
+        height: 134px;
+    }
+    input {
+        border: 1px solid #eee;
+        color: #999;
+        font-family: $primary-font;
+        font-size: 13px;
+        line-height: 26px;
+        text-align: center;
+    }
+}
+
+
+

@@ -1,0 +1,222 @@
+/*--------------------------------------------------------------
+# Portfolio Section
+--------------------------------------------------------------*/
+
+.section__gap {
+    padding: 120px 0;
+}
+.section__gap--top {
+    padding: 30px 0;
+}
+
+.main--title {
+    text-align: center;
+    h1 {
+        color: $title-color;
+        font-family: $title-font;
+        font-size: 48px;
+        font-weight: 700;
+        margin-bottom: 20px;
+        padding-bottom: 15px;
+        text-transform: capitalize;
+    }
+}
+
+.card {
+    border:none;
+    padding: 35px;
+    border-radius: 1rem;
+    margin-left: 3em;
+    .card-text {
+        color: $title-color;
+        font-weight: bold;
+        text-align: center;
+    }
+    .card-body--list {
+        list-style: none;
+        padding-left: 0;
+        .card-body--list--item {
+            .fa-html5::before {
+                color: #15AABF;
+                font-size: 16px;
+            }
+            .fa-css3-alt::before {
+                color: #FD7E14;
+                font-size: 16px;
+            }
+            .fa-js-square::before {
+                color: #BE4ADB;
+                font-size: 16px;
+            }
+            .fa-php::before {
+                color: #4869E9;
+                font-size: 16px;
+            }
+        }
+    }
+    h1 {
+        font-weight: bold;
+        font-size: 28px;
+        text-align: center;
+    }
+    p{
+      font-size: 15px;
+      font-family: $title-font;
+      line-height: 26px;
+      color: $text-color;
+      margin-bottom: 0px;
+      margin: auto;
+      padding-bottom: 10px;
+    }
+}
+
+// Portfolio Filter //
+.projects__filter {
+    margin-bottom: 50px;
+    padding: 20px 0;
+    width: 100%;
+    .projects__filter--list {
+        padding: 10px 0;
+        .btn-group {
+            .btn-light {
+                background-color: transparent;
+                border: 2px solid transparent;
+                font-size: 14px !important;
+                padding: 2px 10px !important;
+                margin: 0 8px;
+                text-transform: uppercase;
+                &:hover {
+                  background: transparent;
+                  border-bottom: 2px solid $primary-color2;
+                  border-radius: 0 !important;
+                  color: #000;
+                 }
+                 &.active {
+                    background-color: $primary-color2;
+                 }
+              }
+        }
+    }
+}
+
+
+
+
+
+
+// Slick Slider //
+
+.slick-slide {
+    margin: 0px 20px;
+}
+
+.slick-slide img {
+    width: 100%;
+}
+
+.slick-slider
+{
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+            user-select: none;
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+        touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list
+{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.slick-list:focus
+{
+    outline: none;
+}
+.slick-list.dragging
+{
+    cursor: pointer;
+    cursor: hand;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list
+{
+    -webkit-transform: translate3d(0, 0, 0);
+       -moz-transform: translate3d(0, 0, 0);
+        -ms-transform: translate3d(0, 0, 0);
+         -o-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+}
+
+.slick-track
+{
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+}
+.slick-track:before,
+.slick-track:after
+{
+    display: table;
+    content: '';
+}
+.slick-track:after
+{
+    clear: both;
+}
+.slick-loading .slick-track
+{
+    visibility: hidden;
+}
+
+.slick-slide
+{
+    display: none;
+    float: left;
+    height: 100%;
+    min-height: 1px;
+}
+[dir='rtl'] .slick-slide
+{
+    float: right;
+}
+.slick-slide img
+{
+    display: block;
+}
+.slick-slide.slick-loading img
+{
+    display: none;
+}
+.slick-slide.dragging img
+{
+    pointer-events: none;
+}
+.slick-initialized .slick-slide
+{
+    display: block;
+}
+.slick-loading .slick-slide
+{
+    visibility: hidden;
+}
+.slick-vertical .slick-slide
+{
+    display: block;
+    height: auto;
+    border: 1px solid transparent;
+}
+.slick-arrow.slick-hidden {
+    display: none;
+}

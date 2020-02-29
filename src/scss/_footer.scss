@@ -1,0 +1,46 @@
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+
+.footer__section {
+    background: #ffd200;
+    padding-top: 10px;
+    .footer__widget{
+        .footer__widget--logo {
+            padding-bottom: 10px;
+        }
+        .footer__widget--list {
+            list-style-type: none;
+            text-align: center;
+        }
+        .footer__widget--list--item {
+            a {
+                padding: 10px;
+            }
+        }
+    }
+    
+    .fa-linkedin-in {
+        color: #c48e0b;
+        &::before {
+            font-size: 36px;
+        }
+        &:hover {
+            color: $primary-color !important;
+        }
+    }
+    .fa-skype {
+        color: #c48e0b;
+        &::before {
+            font-size: 36px;
+        }
+        &:hover {
+            color: $primary-color !important;
+        }
+    }
+    .fa-heart {
+        &::before {
+            color: $primary-color;
+        }
+    }
+}    

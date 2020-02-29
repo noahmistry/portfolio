@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Portfolio - Noah Mistry</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- favicons -->
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon_16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon_32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/images/favicons/favicon_96x96.png">
+    <link rel="apple-touch-icon" sizes="192x192" href="assets/images/favicons/favicon_192x192.png">
+    <link rel="shortcut icon" href="assets/images/favicons/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+    <link rel="stylesheet" href="assets/css/site.css">
+    <script src="https://kit.fontawesome.com/32fb37abc5.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <section class="header__section ">
+        <header class="header__section--main--menu">
+            <nav class="navbar navbar-expand-md navbar-light">
+               <div class="container-fluid">
+                   <a class="navbar-brand" href="#">
+                        <img src="assets/images/logo/nm-logo-blue-variant-transparent.png" class="img-responsive" width="190px" height="90px" alt=""></a>
+                        <button class="navbar-toggler" type="button"  data-toggle="collapse"  data-target="#navbarContent"  aria-controls="navbarContent" aria-expanded="false" aria-label="Togglenavigation">
+                        <span class="navbar-toggler-icon"></span>
+                        </button>
+                        
+                        <div class="collapse navbar-collapse justify-content-end" id="navbarContent">
+                            <div class="navbar-nav">
+                                        <ul class="nav navbar-nav menu__nav justify-content-end">
+                                            <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+                                            <li class="nav-item"><a class="nav-link" href="#about" aria-labelledby="#about">About</a></li>
+                                            <li class="nav-item">
+                                            <a class="nav-link" aria-labelledby="#portfolio" href="#portfolio">Portfolio</a>
+                                            </li>
+                                            <li class="nav-item"><a class="nav-link" href="assets/resume/Noah_Mistry-Resume-Latest.pdf">Resumé</a></li>
+                                            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                                            </ul>
+                            </div>
+                        </div>
+                     </div>
+                </nav> <!-- end of nav-->
+        </header> <!-- end of header-->
+
+        <div class="section__gap--top"></div>
+
+        <section>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="section__gap jumbotron">
+                        <div class="col-md-12">
+                            <div class="row justify-content-center">
+                                <div class="col-md-12">
+                                    <h1 class="jumbotron--title">Noah Mistry</h1>
+                                </div>
+                                <div class="col-md-12">
+                                    <p class="lead text-center"> < full stack web developer > </p>
+                                </div>
+                                    <img src="assets/images/icons/full-stack-program-icon-400x391.png" width="50" height="50" class="rounded mx-auto d-block" alt="">
+                            </div>
+                            <div class="row justify-content-center">
+                                <div class="col-md-12">
+                                    <h3 class="jumbotron--subtitle text-center" id="typedJS"></h3>
+                                </div>
+                            </div>
+                                
+                            <hr class="style__two">
+                            <div class="text-center">
+                                <a class="btn btn-outline-warning" href="#" role="button">Hire Me</a>
+                            </div>
+                        </div>
+                    </div> <!-- end of jumbotron -->
+                </div>
+                
+            </div>
+        </section>
+    </section> <!-- end of section_header  -->
+
+    <!--  Portfolio Section -->
+    <section class="section__gap portfolio__area" id="portfolio">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <div class="main--title">
+                        <h1 class="text-center">Latest Works</h1>
+                        <hr class="style_two" width="50%">
+                    </div>
+                </div>
+            </div>
+            <div class="section__gap--top"></div>
+
+            <!-- Projects Grid -->
+                <div class="row justify-content-center">
+                    <div class="col-md-12">
+                        <div class="projects__filter">
+                            <ul class="projects__filter--list shadow-lg">
+                                <div class="d-flex btn-group btn-group-sm filter-button-group" role="group" aria-label="filter-button-group">
+                                    <button type="button" class="btn btn-light active" data-filter="*">All</button>
+                                    <button type="button" class="btn btn-light" data-filter=".frontEnd">Front End</button>
+                                    <button type="button" class="btn btn-light" data-filter=".backEnd">Full Stack</button>
+                                    <button type="button" class="btn btn-light" data-filter=".upcomingProjects">Upcoming</button>
+                                    <button type="button" class="btn btn-light" data-filter=".sideProjects">Side Projects</button>
+                                  </div>
+                            </ul>
+                        </div>
+                    </div>                    
+                </div> <!-- end of filter categories -->
+
+                <!-- PROJECTS -->
+                <div class="section__gap--top"></div>
+                            <div class="projects__inner grid">
+                                <div class="row">
+                                        <div class="card col-md-5 mb-4 shadow-lg element-item frontEnd">
+                                            <h1 class="display-6 text-center" id="font-bckc">Best Choice Kitchen Cabinets</h1>
+                                            <hr>
+                                           <div class="card-body">
+                                              <ul class="card-body--list d-flex justify-content-around">
+                                                  <li class="card-body--list--item"><i class="fab fa-html5"></i></li>
+                                                  <li class="card-body--list--item"><i class="fab fa-css3-alt"></i></li>
+                                                  <li class="card-body--list--item"><i class="fab fa-js-square"></i></li>
+                                              </ul>
+                                             <p class="card-text">Kitchen Cabinets, Vanities and Entertainment Units</p>
+                                             <p class="text-center">Surrey, BC</p>
+                                             <div class="d-flex justify-content-center align-items-center">
+                                               <div class="btn-group">
+                                                <a class="btn btn-sm btn-outline-warning" href="http://bestchoicekitchencabinets.ca" target="_blank" role="button">View</a>
+                                               </div>
+                                             </div>
+                                           </div>
+                                         </div>
+                                        
+
+                                        <div class="card col-md-5 mb-4 shadow-lg element-item frontEnd">
+                                            <h1>Apace Immigration Services</h1>
+                                            <hr>
+                                           <div class="card-body">
+                                              <ul class="card-body--list d-flex justify-content-around">
+                                                  <li class="card-body--list--item"><i class="fab fa-html5"></i></li>
+                                                  <li class="card-body--list--item"><i class="fab fa-css3-alt"></i></li>
+                                                  <li class="card-body--list--item"><i class="fab fa-js-square"></i></li>
+                                              </ul>
+                                             <p class="card-text">Immigration Consultants</p>
+                                             <p class="text-center">Surrey, BC</p>
+                                             <div class="d-flex justify-content-center align-items-center">
+                                               <div class="btn-group">
+                                                <a class="btn btn-sm btn-outline-warning" href="https://apaceimmigrationservices.com/" target="_blank" role="button">View</a>
+                                               </div>
+                                             </div>
+                                           </div>
+                                         </div>
+                                        
+                                    
+                                    <div class="card col-md-5 mb-4 shadow-lg element-item frontEnd">
+                                       <h1 class="display-6 text-center">Choice Cleaning Services</h1>
+                                       <hr>
+                                      <div class="card-body">
+                                          <ul class="card-body--list d-flex justify-content-around">
+                                              <li class="card-body--list--item"><i class="fab fa-html5"></i></li>
+                                              <li class="card-body--list--item"><i class="fab fa-css3-alt"></i></li>
+                                              <li class="card-body--list--item"><i class="fab fa-js-square"></i></li>
+                                          </ul>
+                                        <p class="card-text">Professional Cleaning Services</p>
+                                        <p class="text-center">Surrey, BC</p>
+                                        <div class="d-flex justify-content-center align-items-center">
+                                          <div class="btn-group">
+                                            <a class="btn btn-sm btn-outline-warning" href="http://www.house-buyers-network.com/index.html" target="_blank" role="button">View</a>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+
+                                     <div class="card col-md-5 mb-4 shadow-lg element-item frontEnd">
+                                        <h1 class="display-6 text-center">Hupntech Services Inc</h1>
+                                        <hr>
+                                       <div class="card-body">
+                                         <ul class="card-body--list d-flex justify-content-around">
+                                             <li class="card-body--list--item"><i class="fab fa-html5"></i></li>
+                                             <li class="card-body--list--item"><i class="fab fa-css3-alt"></i></li>
+                                             <li class="card-body--list--item"><i class="fab fa-js-square"></i></li>
+                                         </ul>
+                                         <p class="card-text">Web Development, IT Infrastructure and Surveillance Systems</p>
+                                         <p class="text-center">Surrey, BC</p>
+                                         <div class="d-flex justify-content-center align-items-center">
+                                           <div class="btn-group">
+                                             <a class="btn btn-sm btn-outline-warning" href="https://www.hupntech.com/" target="_blank" role="button">View</a>
+                                           </div>
+                                         </div>
+                                       </div>
+                                     </div>
+
+                                     <div class="card col-md-5 mb-4 shadow-lg element-item frontEnd">
+                                        <h1 class="display-6 text-center">House Buyers Network</h1>
+                                        <hr>
+                                       <div class="card-body">
+                                         <ul class="card-body--list d-flex justify-content-around">
+                                             <li class="card-body--list--item"><i class="fab fa-html5"></i></li>
+                                             <li class="card-body--list--item"><i class="fab fa-css3-alt"></i></li>
+                                             <li class="card-body--list--item"><i class="fab fa-js-square"></i></li>
+                                         </ul>
+                                         <p class="card-text">Real Estate</p>
+                                         <p class="text-center">Seattle, Washington</p>
+                                         <div class="d-flex justify-content-center align-items-center">
+                                           <div class="btn-group">
+                                             <a class="btn btn-sm btn-outline-warning" href="http://www.house-buyers-network.com/index.html" target="_blank" role="button">View</a>
+                                           </div>
+                                         </div>
+                                       </div>
+                                     </div>
+
+                                     <div class="card col-md-5 mb-4 shadow-lg element-item frontEnd">
+                                        <h1>MK Telecom</h1>
+                                        <hr>
+                                       <div class="card-body">
+                                          <ul class="card-body--list d-flex justify-content-around">
+                                              <li class="card-body--list--item"><i class="fab fa-html5"></i></li>
+                                              <li class="card-body--list--item"><i class="fab fa-css3-alt"></i></li>
+                                              <li class="card-body--list--item"><i class="fab fa-js-square"></i></li>
+                                          </ul>
+                                         <p class="card-text">Low Voltage Specialists</p>
+                                         <p class="text-center">White Rock, BC</p>
+                                         <div class="d-flex justify-content-center align-items-center">
+                                           <div class="btn-group">
+                                            <a class="btn btn-sm btn-outline-warning" href="http://www.mktelecom.ca/" target="_blank" role="button">View</a>
+                                           </div>
+                                         </div>
+                                       </div>
+                                     </div>
+
+                                     <!-- FULL STACK -->
+                                     <div class="card col-md-5 mb-4 shadow-lg element-item backEnd">
+                                        <h1 class="display-6 text-center">SBHPWP.ORG</h1>
+                                        <hr>
+                                       <div class="card-body">
+                                         <ul class="card-body--list d-flex justify-content-around">
+                                             <li class="card-body--list--item"><i class="fab fa-html5"></i></li>
+                                             <li class="card-body--list--item"><i class="fab fa-css3-alt"></i></li>
+                                             <li class="card-body--list--item"><i class="fab fa-js-square"></i></li>
+                                             <li class="card-body--list--item"><i class="fab fa-php"></i></li>
+                                             <li class="card-body--list--item"><img src="assets/images/icons/mysql-24.png" alt=""></li>
+                                         </ul>
+                                         <p class="card-text">Surrey Public Volunteering Program</p>
+                                         <p class="text-center">Surrey, BC</p>
+                                         <div class="d-flex justify-content-center align-items-center">
+                                           <div class="btn-group">
+                                             <a class="btn btn-sm btn-outline-warning" href="https://sbhpwp.org/" target="_blank" role="button">View</a>
+                                           </div>
+                                         </div>
+                                       </div>
+                                     </div>
+
+
+                                     <!-- UPCOMING PROJECTS -->
+                                     <div class="card mb-4 col-md-5 shadow-lg element-item upcomingProjects">
+                                        <h1>HM-Light</h1>
+                                        <hr>
+                                       <div class="card-body">
+                                          <ul class="card-body--list d-flex justify-content-around">
+                                              <li class="card-body--list--item"><i class="fab fa-html5"></i></li>
+                                              <li class="card-body--list--item"><i class="fab fa-css3-alt"></i></li>
+                                              <li class="card-body--list--item"><i class="fab fa-js-square"></i></li>
+                                          </ul>
+                                         <p class="card-text">Retail Lighting Store</p>
+                                         <p class="text-center">Surrey, BC</p>
+                                         <div class="d-flex justify-content-center align-items-center">
+                                           <div class="btn-group">
+                                            <!-- <a class="btn btn-sm btn-outline-warning" href="http://www.mktelecom.ca/" target="_blank" role="button">View</a> -->
+                                           </div>
+                                         </div>
+                                       </div>
+                                     </div>
+
+                                     <div class="card col-md-5 mb-4 shadow-lg element-item upcomingProjects">
+                                        <h1>Studio Mestre</h1>
+                                        <hr>
+                                       <div class="card-body">
+                                          <ul class="card-body--list d-flex justify-content-around">
+                                              <li class="card-body--list--item"><i class="fab fa-html5"></i></li>
+                                              <li class="card-body--list--item"><i class="fab fa-css3-alt"></i></li>
+                                              <li class="card-body--list--item"><i class="fab fa-js-square"></i></li>
+                                          </ul>
+                                         <p class="card-text">Interior Design</p>
+                                         <p class="text-center">Surrey, BC</p>
+                                         <div class="d-flex justify-content-center align-items-center">
+                                           <div class="btn-group">
+                                           </div>
+                                         </div>
+                                       </div>
+                                     </div>
+                                </div>
+                            </div>
+    </section>  <!-- end of projects -->
+    
+    
+
+    <!-- Clients Carousel -->
+    <section class="section__gap clients">
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="col-md-12 col-lg-6">
+                    <div class="main--title">
+                        <h1 class="text-center">Clients I've worked with</h1>
+                        <hr class="style_two" width="50%">
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="client-carousel section__gap--top">
+                        <div class="carousel-cell">
+                            <img src="assets/images/portfolio/bckc-tp - Edited.png"  height="90" class="rounded" alt="">
+                        </div>
+                        <div class="carousel-cell">
+                            <img src="assets/images/portfolio/newapacelogo - Edited.png" class="rounded" alt="">
+                        </div>
+                        <div class="carousel-cell">
+                            <img src="assets/images/portfolio/original-logo - Edited.jpg" class="rounded" alt="">
+                        </div>
+                        <div class="carousel-cell">
+                            <img src="assets/images/portfolio/transparent - Edited.png" alt="" class="rounded">
+                        </div>
+                        <div class="carousel-cell">
+                            <img src="assets/images/portfolio/booster-juice-vector-logo - Edited.png" alt="" class="rounded">
+                        </div>
+                        <div class="carousel-cell">
+                            <img src="assets/images/portfolio/ice-bureau-de-change-web_2.png" width="140" alt="" class="rounded">
+                        </div>
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+    </section> <!-- end of clients carousel -->
+
+    <div class="section__gap--top"></div>
+
+    <!-- About Me -->
+    <section class="section__gap--top about__me" id="about">
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="col-8">
+                    <div class="main--title">
+                        <h1 class="text-center">About Me</h1>
+                        <hr class="style_two" width="50%">
+                    </div>
+                    <p class="text-center">I'm a self taught web developer who grew up with an interest in how computers worked. As soon i was able to get my hands on a old Compaq 386 PC i couldn't wait to tear it open. Don't worry it was already fried. This led me to learning and exploring more about computers and becoming a IT technician.</p>
+                    <p class="text-center">After 10 years of working in the industry, a good point for self-evaluation. I always admired and had so much respect for programmers, lot's of painstaking work behind the scenes, whereas as a technician you definetly steal the spotlight. This led me to my next question? Could i be a programmer? 🤔</p>
+                    <p class="text-center">So i began this journey of "trial and error", dipping my toes into web development with free online resources. Skip to today, my appreciation for software engineers and web developers has only grown. Countless hours debugging the "undebuggable", which turns out to be a syntax error 🤦‍♂️ </p>
+                </div>
+                <div class="col-4">
+                    <img src="assets/images/profile/nm-blur - Edited.jpg" class="img-thumbnail" width="250" height="250" alt="">
+                </div>
+            </div>
+        </div>
+    </section> <!-- end about-me section -->
+
+    <div class="section__gap"></div>
+
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-md-12 col-lg-6">
+                <div class="main--title" id="contact">
+                    <h1 class="text-center">Contact Me</h1>
+                    <hr class="style_two" width="50%">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Pre-form Contact -->
+    <section>
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="col-lg-6 col-md-4">
+                    <ul class="contact__section--list">
+                        <li class="contact__section--list--item">
+                            <h6><i class="fas fa-home">
+                            </i>Surrey, BC, Canada</h6>
+                        </li>
+                        <li class="contact__section--list--item">
+                            <h6><a href="tel:+16048076966"><i class="fas fa-phone-volume">
+                            </i>(604) 807-6966</a></h6>
+                        </li>
+                        <li class="contact__section--list--item">
+                            <h6><i class="far fa-envelope"></i>noah.mistry@gmail.com</h6>
+                        </li>
+                    </ul>
+                </div>
+                 <!-- Form  -->
+                <div class="col-lg-6 col-md-10">
+                    <form class="form__section" action="assets/php-mailer/contact-form-handler.php" method="POST">
+                            <div class="col-md-8">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" name="name" id="name" placeholder="Enter your name" required>
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" name="email" id="email" placeholder="Enter your email" required>
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" name="subject" id="subject" placeholder="Enter subject" required>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <textarea name="message" class="form-control" id="textarea" id="message" rows="1" required></textarea>
+                                </div>
+                            </div>
+                            <div class="col-md-10 text-center">
+                                <button type="submit" class="btn btn-primary">Send</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+
+
+    <!-- Footer Section -->
+<div class="section__gap--top"></div>
+    <footer class="footer__section">
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <aside class="footer__widget">
+                    <div class="col-md-6 text-center">
+                        <div class="footer__widget--logo">
+                            <img src="assets/images/logo/nm-logo-blue-variant-tp.png" alt="" class="text-center" width="250">
+                        </div>
+                    </div>
+
+                    <div class="row justify-content-center">
+                        <div class="col-md-6 footer__widget--list--item">
+                            <a href="www.linkedin.com/in/
+                            noah-mistry-b51836120" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="skype:noemistry?chat"><i class="fab fa-skype"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="section__gap--top"></div>
+
+                    <p class="text-center"> Copyright <i class="fa fa-copyright" aria-hidden="true"></i> 2020 All rights reserved</p>
+                    <p class="text-center">This site was made with <i class="fas fa-heart"></i> by Noah Mistry</p>
+                </aside>
+            </div>
+            
+        </div>
+    </footer>
+    
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="https://kit.fontawesome.com/32fb37abc5.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+    <script src="assets/js/fit-columns.js"></script>
+    <script src="assets/js/site.js"></script>
+
+</body>
+</html>

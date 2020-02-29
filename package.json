@@ -1,0 +1,42 @@
+{
+  "name": "portfolio-nm",
+  "version": "1.0.0",
+  "description": "Web Portfolio of Noah Mistry",
+  "main": "site.js",
+  "scripts": {
+    "gulp":"gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noahmistry/portfolio-nm.git"
+  },
+  "author": "Noah Mistry",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/noahmistry/portfolio-nm/issues"
+  },
+  "browserslist": [
+    "defaults"
+  ],
+  "homepage": "https://github.com/noahmistry/portfolio-nm#readme",
+  "dependencies": {
+    "angular-expressions": "^1.0.1",
+    "autoprefixer": "^9.7.4",
+    "cssnano": "^4.1.10",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-cli": "^2.2.0",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-newer": "^1.4.0",
+    "gulp-noop": "^1.0.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-size": "^3.0.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "postcss-assets": "^5.0.0",
+    "usedcss": "^1.0.7"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.7"
+  }
+}
