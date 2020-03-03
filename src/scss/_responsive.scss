@@ -1,0 +1,119 @@
+
+/*
+####################################################
+M E D I A  Q U E R I E S
+####################################################
+*/
+
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+Bootstrap 4 breakpoints
+*/
+
+/* 
+Extra small devices (portrait phones, less than 576px) 
+No media query since this is the default in Bootstrap because it is "mobile first"
+*/
+@media (min-width:320px){
+    .card{
+        margin-left: 0;
+    }
+    .about__me {
+        img{
+            display:none;
+        }
+    }
+    .footer__widget--list-item {
+        a{
+            display:flex;
+            justify-content: center;
+        }
+    }
+    .carousel--cell {
+        width: 50%;
+        // height: 100px;
+    }
+
+}
+
+@media (min-width:375px){
+    .card{
+        margin-left: 0;
+    }
+    .about__me {
+        img{
+            display:none;
+        }
+    }
+    .footer__widget--list-item {
+        a{
+            display:flex;
+            justify-content: center;
+        }
+    }
+    .carousel--cell {
+        width: 50%;
+    }
+
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {  
+
+}
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {  
+    .navbar-nav {
+        flex-wrap: initial;
+    }
+    .btn-group {
+        width: 100%;
+    }
+    .carousel--cell {
+        width: 200px !important;
+        margin-left: 20px;
+    }
+    .projects__inner {
+        .card {
+            margin-left: 50px;
+        }
+    }
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    .about__me {
+        img{
+            display:flex;
+            margin-top: 20%;
+            margin-left: 30%;
+        }
+    }
+    .carousel--cell {
+        width: 200px !important;
+        margin-left: 20px;
+    }
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+    
+}
+
+
+
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+Custom media queries
+*/
+
+/* Set width to make card deck cards 100% width */
+@media (max-width: 950px) { 
+
+}
+
+

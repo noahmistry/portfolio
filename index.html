@@ -11,7 +11,7 @@
     <link rel="icon" type="image/png" sizes="96x96" href="assets/images/favicons/favicon_96x96.png">
     <link rel="apple-touch-icon" sizes="192x192" href="assets/images/favicons/favicon_192x192.png">
     <link rel="shortcut icon" href="assets/images/favicons/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css" media="screen">
     <link rel="stylesheet" href="assets/css/site.css">
     <script src="https://kit.fontawesome.com/32fb37abc5.js" crossorigin="anonymous"></script>
 
@@ -95,8 +95,8 @@
                 <div class="row justify-content-center">
                     <div class="col-md-12">
                         <div class="projects__filter">
-                            <ul class="projects__filter--list shadow-lg">
-                                <div class="d-flex btn-group btn-group-sm filter-button-group" role="group" aria-label="filter-button-group">
+                            <ul class="col-14 col-md-12 projects__filter--list shadow-lg">
+                                <div class="d-flex-sm flex-wrap btn-group btn-group-sm filter-button-group" role="group" aria-label="filter-button-group">
                                     <button type="button" class="btn btn-light active" data-filter="*">All</button>
                                     <button type="button" class="btn btn-light" data-filter=".frontEnd">Front End</button>
                                     <button type="button" class="btn btn-light" data-filter=".backEnd">Full Stack</button>
@@ -250,6 +250,28 @@
                                        </div>
                                      </div>
 
+                                     <!-- SIDE PROJECTS -->
+                                     <div class="card col-md-5 mb-4 shadow-lg element-item sideProjects backEnd">
+                                        <h1 class="display-6 text-center">YelpCamp</h1>
+                                        <hr>
+                                       <div class="card-body">
+                                         <ul class="card-body--list d-flex justify-content-around">
+                                             <li class="card-body--list--item"><i class="fab fa-html5"></i></li>
+                                             <li class="card-body--list--item"><i class="fab fa-css3-alt"></i></li>
+                                             <li class="card-body--list--item"><i class="fab fa-js-square"></i></li>
+                                             <li class="card-body--list--item"><i class="fab fa-node-js"></i></li>
+                                             <li class="card-body--list--item"><img src="https://img.icons8.com/color/48/000000/mongodb.png" width="20"></li>
+                                         </ul>
+                                         <p class="card-text">YelpCamp for Campers</p>
+                                         <p class="text-center">Surrey, BC</p>
+                                         <div class="d-flex justify-content-center align-items-center">
+                                           <div class="btn-group">
+                                             <a class="btn btn-sm btn-outline-warning" href="https://mysterious-hamlet-31790.herokuapp.com/" target="_blank" role="button">View</a>
+                                           </div>
+                                         </div>
+                                       </div>
+                                     </div>
+
 
                                      <!-- UPCOMING PROJECTS -->
                                      <div class="card mb-4 col-md-5 shadow-lg element-item upcomingProjects">
@@ -304,28 +326,32 @@
                         <hr class="style_two" width="50%">
                     </div>
                 </div>
-                <div class="col-md-12">
-                    <div class="client-carousel section__gap--top">
-                        <div class="carousel-cell">
-                            <img src="assets/images/portfolio/bckc-tp - Edited.png"  height="90" class="rounded" alt="">
-                        </div>
-                        <div class="carousel-cell">
-                            <img src="assets/images/portfolio/newapacelogo - Edited.png" class="rounded" alt="">
-                        </div>
-                        <div class="carousel-cell">
-                            <img src="assets/images/portfolio/original-logo - Edited.jpg" class="rounded" alt="">
-                        </div>
-                        <div class="carousel-cell">
-                            <img src="assets/images/portfolio/transparent - Edited.png" alt="" class="rounded">
-                        </div>
-                        <div class="carousel-cell">
-                            <img src="assets/images/portfolio/booster-juice-vector-logo - Edited.png" alt="" class="rounded">
-                        </div>
-                        <div class="carousel-cell">
-                            <img src="assets/images/portfolio/ice-bureau-de-change-web_2.png" width="140" alt="" class="rounded">
+                <div class="container">
+                    <div class="col-md-12">
+                        <div class="client__carousel">
+                            <div class="carousel--cell">
+                                <img src="assets/images/portfolio/bckc-tp - Edited.png"  height="90" class="img-fluid" alt="">
+                            </div>
+                            <div class="carousel--cell"><img src="assets/images/portfolio/newapacelogo - Edited.png" class="img-fluid" alt=""></div>
+                            <div class="carousel--cell">
+                                <img src="assets/images/portfolio/original-logo - Edited.jpg" class="img-fluid" alt="">
+                            </div>
+                            <div class="carousel--cell">
+                                <img src="assets/images/portfolio/transparent - Edited.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="carousel--cell">
+                                <img src="assets/images/portfolio/booster-juice-vector-logo - Edited.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="carousel--cell">
+                                <img src="assets/images/portfolio/ice-bureau-de-change-web_2.png" width="140" alt="" class="img-fluid">
+                            </div>
+                            <div class="carousel--cell pt-3">
+                                <img src="assets/images/portfolio/glb-carpets-logo.png" width="140" alt="" class="img-fluid">
+                            </div>
                         </div>
                     </div>
                 </div>
+                
                
             </div>
         </div>
@@ -335,18 +361,18 @@
 
     <!-- About Me -->
     <section class="section__gap--top about__me" id="about">
-        <div class="container-fluid">
+        <div class="container">
             <div class="row justify-content-center">
-                <div class="col-8">
+                <div class="col-12 col-md-12 col-lg-6">
                     <div class="main--title">
                         <h1 class="text-center">About Me</h1>
                         <hr class="style_two" width="50%">
                     </div>
                     <p class="text-center">I'm a self taught web developer who grew up with an interest in how computers worked. As soon i was able to get my hands on a old Compaq 386 PC i couldn't wait to tear it open. Don't worry it was already fried. This led me to learning and exploring more about computers and becoming a IT technician.</p>
                     <p class="text-center">After 10 years of working in the industry, a good point for self-evaluation. I always admired and had so much respect for programmers, lot's of painstaking work behind the scenes, whereas as a technician you definetly steal the spotlight. This led me to my next question? Could i be a programmer? 🤔</p>
-                    <p class="text-center">So i began this journey of "trial and error", dipping my toes into web development with free online resources. Skip to today, my appreciation for software engineers and web developers has only grown. Countless hours debugging the "undebuggable", which turns out to be a syntax error 🤦‍♂️ </p>
+                    <p class="text-center">So i began this journey of "trial and error", dipping my toes into web development with free online and paid resources. I may not have all the skillset of a computer science graduate but with the i'm a <strong>quick learner and hard worker</strong></p>
                 </div>
-                <div class="col-4">
+                <div class="col-md-4 col-lg-5">
                     <img src="assets/images/profile/nm-blur - Edited.jpg" class="img-thumbnail" width="250" height="250" alt="">
                 </div>
             </div>
@@ -357,7 +383,7 @@
 
     <div class="container-fluid">
         <div class="row justify-content-center">
-            <div class="col-md-12 col-lg-6">
+            <div class="col-md-12 col-lg-5">
                 <div class="main--title" id="contact">
                     <h1 class="text-center">Contact Me</h1>
                     <hr class="style_two" width="50%">
@@ -371,7 +397,7 @@
     <section>
         <div class="container-fluid">
             <div class="row justify-content-center">
-                <div class="col-lg-6 col-md-4">
+                <div class="col-12 col-lg-6 col-md-4 text-center">
                     <ul class="contact__section--list">
                         <li class="contact__section--list--item">
                             <h6><i class="fas fa-home">
@@ -430,7 +456,7 @@
                     </div>
 
                     <div class="row justify-content-center">
-                        <div class="col-md-6 footer__widget--list--item">
+                        <div class="col-md-6 footer__widget--list--item text-center">
                             <a href="www.linkedin.com/in/
                             noah-mistry-b51836120" target="_blank"><i class="fab fa-linkedin-in"></i></a>
                             <a href="skype:noemistry?chat"><i class="fab fa-skype"></i></a>
@@ -463,6 +489,7 @@
     <script src="https://kit.fontawesome.com/32fb37abc5.js" crossorigin="anonymous"></script>
     <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
     <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
     <script src="assets/js/fit-columns.js"></script>
     <script src="assets/js/site.js"></script>
 

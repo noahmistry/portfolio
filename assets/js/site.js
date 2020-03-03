@@ -5,29 +5,50 @@
 
 /* Slick Carousel */
 
-$(document).ready(function(){
-    $(".client-carousel").slick({
-        // options //
-        slidesToShow: 6,
-        slidesToScroll: 1,
-        adaptiveHeight:true,
-        arrows: false,
-        dots: false,
-        pauseOnHover: false,
-        centerPadding:'50px',
-        responsive: [{
-            breakpoint: 768,
-            settings: {
-                slidesToShow: 4
-            }
-        }, {
-            breakpoint: 520,
-            settings: {
-                slidesToShow: 3
-            }
-        }]
-    });
-}); /* slick carousel - end */
+// $(document).ready(function(){
+//     $(".client-carousel").slick({
+//         // options //
+//         slidesToShow: 6,
+//         slidesToScroll: 1,
+//         adaptiveHeight:true,
+//         arrows: false,
+//         dots: false,
+//         pauseOnHover: false,
+//         centerPadding:'50px',
+//         responsive: [{
+//             breakpoint: 768,
+//             settings: {
+//                 slidesToShow: 4
+//             }
+//         }, {
+//             breakpoint: 520,
+//             settings: {
+//                 slidesToShow: 3
+//             }
+//         },{
+//             breakpoint: 320,
+//             settings: {
+//                 slidesToShow: 3
+//             }
+//         }]
+//     });
+// }); /* slick carousel - end */
+
+/* Flickity Carousel */
+
+$('.client__carousel').flickity({
+    // options //
+    adaptiveHeight: true,
+    contain:true,
+    groupCells:2,
+    pageDots: true,
+    prevNextButtons: false,
+    resize: false
+});
+
+
+
+
 
 /* TYPED JS V2 */
 var typedJS = document.getElementById("typedJS");
