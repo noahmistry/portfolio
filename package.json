@@ -4,7 +4,7 @@
   "description": "Web Portfolio of Noah Mistry",
   "main": "site.js",
   "scripts": {
-    "gulp":"gulp"
+    "gulp": "gulp"
   },
   "repository": {
     "type": "git",
@@ -20,7 +20,7 @@
   ],
   "homepage": "https://github.com/noahmistry/portfolio-nm#readme",
   "dependencies": {
-    "angular-expressions": "^1.0.1",
+    "angular-expressions": "^1.1.0",
     "autoprefixer": "^9.7.4",
     "cssnano": "^4.1.10",
     "del": "^5.1.0",
